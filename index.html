@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatiblle" content="Ie=edge" />
+    <title>GUESS ME!</title>
+
+    <!--Jquery-->
+    <script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
+    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"/>
+
+
+</head>
+
+<body>
+    <!-- Css and JS-->
+    <script src="./style.css"></script>
+    <script src="./game.js"></script>
+
+    <div class="container">
+        <!-- Heading -->
+        <div class="container pt-3">
+
+            <div class="row text-center">
+                <div class="col-sm-4 text-center">
+                    <h1>HANGMAN</h1>
+                    <p>Click On The Alphabets To Guess The Word!</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-sm-4 text-center">
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">a</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">b</b></button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">c</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">d</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">e</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">f</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">g</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">h</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">i</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">j</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">k</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">l</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">m</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">n</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">o</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">p</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">q</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">r</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">s</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">t</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">u</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">v</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">w</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">x</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">y</button>
+                    <button type="button" id="a" class="btn btn-outline-primary clickable">z</button>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <span>Remaining Life:</span>
+                <span id="life">5</span>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-4 text-center">
+                <span>Hint:</span>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-4 text center">
+            </div>
+        </div>
+
+        <!-- Word Bank -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center mb-5" id="word_bank_container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h1>Word Bank</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center" id="bank_words">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Fields -->
+        <div class="col-sm-12 col-md-4 col-lg-4" id="input_fields">
+
+
+</body>
+</html>
